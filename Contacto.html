@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conferencia Platzy-com</title>
+<link rel="preload" href="../../../Normalize.css">
+<link rel="stylesheet" href="../../Normalize.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> 
+<link href="../css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<script src="../js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Lobster&family=Potta+One&family=Yusei+Magic&display=swap" rel="stylesheet">
+</head>
+
+
+<!-- .........A PARTIR DE ESTE MOMENTO DESAROLLA EL PROYECTO CON LA ETIQUETAS ................. -->
+
+<!-- ........INICIO HEADER ................. -->
+<!-- ........INICIO CSS HEADER ................. -->
+<STYLE>
+header{
+background:url(../Udemy_Vertion/img/banner.jpg);
+background-size: cover;
+}
+div.row{
+width: 40vw;
+margin: 0 auto;
+padding: 80px 0;
+}
+.row h1, a{
+color: white;
+font-family: PT Sans;
+font-weight:extra-bold;
+text-decoration: none;
+font-size: x-x-large!important;
+text-align: center;
+}
+#links-cabecera a{
+font-size: x-large;
+display: block;
+padding: 0 10px;
+}
+#segundo-row-container{
+width: 100vw;
+}
+.row p{
+color: white;
+font-family: PT Sans;
+font-weight:extra-bold;
+text-decoration: none;
+font-size: x-x-large!important;
+text-align: center;
+}
+
+@media (min-width: 768px){
+#container-cabecera .row{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width:100vw;
+}
+#container-cabecera{
+margin: 0;
+padding: 0;
+}
+#container-cabecera h1{
+width: fit-content;
+}
+#links-cabecera{
+width:fit-content;
+}
+
+#links-cabecera a{
+display: inline-block;
+color: white;
+font-family: PT Sans;
+font-weight:extra-bold;
+text-decoration: none;
+font-size: x-x-large!important;
+}
+}
+</STYLE>
+<!-- ........FIN CSS HEADER ................. -->
+<header id="cabecera" class="container-fluid">
+    <div id="container-cabecera" class="container-sm container-md">
+        <div class="row">
+            <h1>Blog
+                <strong>DeCafe</strong>
+            </h1>
+            <div  id="links-cabecera">
+                <a href="#">Nosotros</a>
+                <a href="#">Cursos</a>
+                <a href="#">Contacto</a>
+            </div>
+        </div>
+    </div>
+    <div id="segundo-row-container" class="row">
+        <h1><strong>Blog de café con consejos y cursos</strong> </h1>
+        <p>Aprende de los expertos con las mejores recetas y consejos</p>
+    </div>
+</header>
+<!-- ........FIN HEADER ................. -->
+
+<!-- ........INICIO MAIN SECTION ................. -->
+
+<!-- ........INICIO CSS MAIN SECTION ................. -->
+<STYLE>
+
+#main h1{
+padding: 50px;
+text-align: center;
+}
+
+#main div.container{
+background: url(../Udemy_Vertion/img/contacto.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+width: 100vw;
+height: 30vh;
+}
+#main section{
+padding:50px;
+}
+section.container{
+width: 80%;
+margin: 0 80px;
+position: relative;
+bottom: 50px;
+background-color: white;
+}
+
+
+#reference{
+padding:10px 20px;
+color: black;
+font-weight: bold;
+}
+.formulario{
+padding: 10px 0;
+}
+
+</STYLE>
+<!-- ........FIN CSS MAIN SECTION ................. -->
+<main id="main" class="container-fluid">
+    <h1><strong>Contacto</strong></h1>
+    <div class="container"></div>
+    <section class="container">
+        <div  class="input-group formulario flex-nowrap">
+            <span id="reference">Nombre</span>
+            <input type="text" class="form-control" placeholder="Pepo Perez" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+        <div  class="input-group formulario flex-nowrap">
+            <span id="reference" style="padding-right: 30px;">Correo</span>
+            <span class="input-group-text" id="addon-wrapping">@</span>
+            <input type="text" class="form-control" placeholder="email@example.com" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+        <div  class="input-group formulario">
+            <span id="reference">Mensaje</span>
+            <span class="input-group-text">With textarea</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+    </section>
+
+</main>
+<!-- ........FIN MAIN SECTION ................. -->
+
+
+<!-- .........................INICIO PIE DE PAGINA .......................... -->
+<STYLE>
+    #final{
+    background-color: #000;
+
+    }
+    #final div {
+    width: fit-content;
+    color: white;
+    }
+
+    #final a {
+    width: fit-content;
+    color: white;
+    font-family: PT Sans;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: x-large;
+    padding:20px;
+    }
+
+    #final{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    }
+
+</STYLE>
+<footer id="final" class="container-fluid py-5">
+            <div>
+                <h1>Blog <strong>DeCafé</strong> </h1>
+            </div>
+            <div class="p-2">
+                <a  href="#">Nosotros</a>
+                <a  href="#">Cursos</a>
+                <a  href="#">Contacto</a>
+            </div>
+</footer>
+<!-- .........................FIN PIE DE PAGINA .......................... -->
+
+
+<script src="../js/bootstrap.bundle.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="../js/bootstrap.bundle.min.js"
+integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+
+
+<!-- Codigo de version JS en Bootstrap 4 para activar funcionalidad de navbar-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
